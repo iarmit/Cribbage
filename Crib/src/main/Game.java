@@ -56,9 +56,11 @@ public class Game {
 		}
 		comp.setHand(new Hand(gameDeck, 6));
 		
+		
+		
 		System.out.println("Players Hand:\n" + player.getHand());
 		
-	
+		input.close();
 	}
 	
 }
